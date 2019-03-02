@@ -4,7 +4,8 @@
         "scripts": {
           "test-setup": "gem install rubocop",
           "test": "rubocop ."
-        }
+        },
+        "addons": ["heroku-postgresql:in-dyno", "heroku-redis:in-dyno"]
       }
     }
   }
