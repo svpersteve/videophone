@@ -22,6 +22,10 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'foreman'
+end
+
+group :test do
+  gem 'capybara', '>= 2.15'
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers', '4.0.0.rc1'
