@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rubocop', '~> 0.65.0', require: false
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :development do
